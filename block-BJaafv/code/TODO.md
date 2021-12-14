@@ -58,7 +58,11 @@ alert(userName); // Output 3
 
 8. What is a Anonymous Function give example of three functions.
 
+An anonymous function is a function that was declared without any named identifier to refer to it. As such, an anonymous function is usually not accessible after its initial creation. Normal function definition: function hello() { alert('Hello world'); } hello();
+
 9. Can function declaration be a Anonymous Function? Explain
+
+Anonymous Function is a function that does not have any name associated with it. ... An anonymous function is not accessible after its initial creation, it can only be accessed by a variable it is stored in as a function as a value. An anonymous function can also have multiple arguments, but only one expression
 
 10. Give 5 example of good naming convention for defining a function. You can read the details below to do that.
 
