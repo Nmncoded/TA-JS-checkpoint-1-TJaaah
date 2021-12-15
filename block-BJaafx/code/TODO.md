@@ -93,3 +93,7 @@ getOutput(); // what will be the output
 9. Can a function have multiple return statement? Give one example if possible and explain the reason.
 
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
+
+The difference between for loop and while loop is that in for loop the number of iterations to be done is already 
+known and is used to obtain a certain result whereas in while loop the command runs until a certain condition is reached and 
+the statement is proved to be false.
