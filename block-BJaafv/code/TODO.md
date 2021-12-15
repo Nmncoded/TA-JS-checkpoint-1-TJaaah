@@ -80,3 +80,18 @@ Function starting with…
 "create…" – create something,
 "check…" – check something and return a boolean, etc.
 ```
+let userAge = NaN;
+if(userAge === NaN){
+  alert(`The value is NaN`)
+}  else{
+  alert(`the value if not NaN`)
+}
+
+
+let user1 = 'Sameer';
+let user2 = 'sameer';
+if(user1 === user2){
+  alert(`The value is equal`)
+}  else{
+  alert(`the value if not equal`)
+}
