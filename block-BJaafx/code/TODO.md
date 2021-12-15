@@ -9,10 +9,33 @@ while (i < 3) {
   i++;
 }
 ```
+println is not defined.
 
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
 
+function getEvenSum(max=10){
+  for(let i = 0; i <= 10; i ++ ){
+    if(i%2===0){
+      max += i;
+    }
+  }
+  return max;
+}
+
+getEvenSum();
+
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
+
+function getOddSum(max=10){
+  for(let i = 0; i <= 10; i ++ ){
+    if( i % 2 !== 0){
+      max += i;
+    }
+  }
+  return max;
+}
+
+getOddSum();
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
 
@@ -34,9 +57,9 @@ function check(num) {
   return num;
 }
 
-check(10); // output
-check(1); // output
-check(5); // output
+check(10); // 'Bigger than 5'
+check(1); // 'Smaller than 5'
+check(5); // 5
 ```
 
 7. What will be the output of the following code given below? Explain the reason?
@@ -48,9 +71,9 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // what will be the output
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput('Arya'); // 'You are arya'
+getOutput('John'); // 'You are John'
+getOutput(); // 'Who are you'
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
